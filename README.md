@@ -30,6 +30,15 @@ It offers a variety of features:
 
 1.nameServer start
 
+nameServer启动需要关注的类
+
+org.apache.rocketmq.namesrv.NamesrvStartup
+method: createNamesrvController
+
+
+
+org.apache.rocketmq.namesrv.NamesrvController
+
 2.broker start
 
 3.produce start
